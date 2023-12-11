@@ -1,0 +1,32 @@
+.tetka-marica {
+      width: 250px;
+      height: 249px;
+      background-image: url('./zima.jpg');
+      opacity: 0.9;
+    }
+    div{
+      height: 300px;
+      width: 300px;
+      color: white;
+      border: 2px solid red;
+
+    }
+    .big-img{
+      background: url(./big.jpg);
+      background-size: cover;
+      /* background-position: center; */
+      background-repeat: no-repeat;
+    }
+    /* ovdje sam u paint-u resajzovo sliku na 300 *300 pixela da bih je uklopio u div koji je te velicine a u big-img i folder -img sam ubacio background size sa vrijednoscu cover da bih postigao taj efekat */
+    .small-img{
+      background-image: url(./small.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* background-position: center; */
+    }
+    .folder{
+      background: url(./images/folder.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      /* background-position: center; */
+    }
